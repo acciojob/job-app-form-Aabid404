@@ -11,28 +11,28 @@
 	<form method="post">
 		
 	<lable for="name*">Name*</lable>
-	<input type="text" id="name" required>
+	<input type="text" id="name" name="name"required>
 	<lable for="email">Email*</lable>
-	<input type="email" id="email" required>	
+	<input type="email" id="email" name="email" required>	
 	<lable for="male">Male</lable>
-	<input type="radio" id="male" name="gender" required>
+	<input type="radio" id="male" name="gender" value="male" required>
 	<lable for="female">Female</lable>
-	<input type="radio" id="male" name="gender" required>
+	<input type="radio" id="male" name="gender"value="female" required>
 
-		<lable>Laptop Brands*</lable>
-		<select>
+		<lable for="laptop">Laptop Brands*</lable>
+		<select id="laptop" name="laptop">
 		<option>Apple</option>
 		<option>Asus</option>
 		<option>HP</option>
 	</select>
 	<lable for="age">Age*</lable>
-	<input type="number input" id="age" required>
+	<input type="number" id="age" name="age" required>
 	<lable for="dob">Date of Birth*</lable>
-	<input type="date input" id="dob" required>
+	<input type="date" id="dob" name="dob" required>
 	<lable for="password">Password*</lable>
-	<input type="password input" id="password" required>
+	<input type="password" id="password" name="password" required>
 	<lable for="portfolio">Portfolio URL</lable>
-	<input type="url input" id="portfolio">
+	<input type="url" id="portfolio" name="portfolio">
 		<button type="submit">Submit Button</button>
 	</form>
     <script type="text/javascript" src="./script.js">
